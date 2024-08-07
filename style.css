@@ -7,7 +7,6 @@ body {
 }
 .smenu-links {
     list-style: none;
-
 }
 /* li {
     padding: 5px;
@@ -50,9 +49,9 @@ h3 {
 }
 .img-cropper {
     width: 100%;
-    /* border: 10px solid #8A9EA0; */
-    /* border-radius: 50%; */
-    /* overflow: hidden; */
+    border: 10px solid #8A9EA0;
+    border-radius: 50%;
+    overflow: hidden;
 
 }
 article.experience {
@@ -71,7 +70,7 @@ article.main {
     border-top-left-radius: 2%;
     border-left: 1px solid #8A9EA0;
     gap: 50px;
-} */
+}  */
 
 /* .grid-container > div:nth-child(1) {
     grid-column: 1 / span 6;
