@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Sonsie+One&display=swap');
 body {
     background: #FFFAF0;
     text-align: center;
@@ -19,6 +20,7 @@ h2, h3 {
     color: black;
 }
 header {
+    font-family: "Sonsie One";
     max-width: 1200px;
     margin: 40px auto;
     border-bottom: 3px solid #897C70;
