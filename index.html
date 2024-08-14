@@ -7,29 +7,29 @@
     </head>
     <body>
         <header>
-            <h1>Hello World!</h1>
+            <h1>HELLO WORLD!</h1>
         </header>
         <main class="grid-container">
             <nav class="sidebar">
                 <div>
-                    <h3>Categories</h3>
+                    <!-- <h3><u>CATEGORIES</u></h3> -->
                     <ul class="smenu-links">
                         <li>
-                            <a href="">About Me</a>
+                            <a href="#about-me"><strong>ABOUT ME</strong></a>
                         </li>
                         <li>
-                            <a href="">Experience</a>
+                            <a href="#experience"><strong>EXPERIENCE</strong></a>
                         </li>
                         <li>
-                            <a href="">Hobbies</a>
+                            <a href="#hobbies"><strong>HOBBIES</strong></a>
                         </li>
                         <li>
-                            <a href="">Travel</a>
+                            <a href="#travel"><strong>TRAVEL</strong></a>
                         </li>
                     </ul>
                 </div>
             </nav>
-            <article class="about-me">
+            <article class="about-me" id="about-me">
                 <img src="img/img1.jpg" alt="article image" id="article-image">
                 <div>
                     <h2>Hi and welcome to my first website!</h2>
@@ -39,7 +39,7 @@
                     </p>
                 </div>
             </article>
-            <article class="experience">
+            <article class="experience" id="experience">
                 <div>
                     <h2>Work Experience</h2>
                     <h3>Enrolled Nurse</h3>
@@ -49,7 +49,7 @@
                 </div>
                 <img src="img/kisspng-nursing-pin-registered-nurse-health-care-medicine-hand-saw-5ad5c57e1e9416.3596315415239591661253.png" alt="experience image" id="">
             </article>
-            <article class="hobbies">
+            <article class="hobbies" id="hobbies">
                 <h2>Hobbies</h2>
                 <p>I absolutely love my hobbies, which include baking, playing basketball, and practicing archery. Baking is a creative outle 
                     for me; there's something incredibly satisfying about turning simple ingredients into delicious treats and experimenting with new recipes. Basketball keeps me active and engaged, and I thrive on the teamwork and strategy involved in every game.
@@ -59,7 +59,7 @@
                     fitness, and discipline to my life.
                 </p>
             </article>
-            <article class="travel">
+            <article class="travel" id="travel">
                 <h2>Travel</h2>
                 <p>raveling the world has been a deeply fulfilling experience for me. 
                     In Greece, I marveled at ancient ruins and beautiful coastlines. South Korea impressed me with its blend of tradition and modernity, 
@@ -68,9 +68,24 @@
                 </p>
             </article>
             <article class="img-gallery">
-                <img src="img/Greek-island.jpg" alt="Greek Island">
-                <img src="img/busan.jpg" alt="Gamcheon Culture Village">
-                <img src="img/sanctuary-of-truth.jpg" alt="Sanctuary of Truth">
+                <div class="container">
+                    <img src="img/Greek-island.jpg" alt="Greek Island">
+                    <div class="overlay">
+                        <div class="text">GREECE</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="img/busan.jpg" alt="Gamcheon Culture Village">
+                    <div class="overlay">
+                        <div class="text">SOUTH KOREA</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="img/sanctuary-of-truth.jpg" alt="Sanctuary of Truth">
+                    <div class="overlay">
+                        <div class="text">THAILAND</div>
+                    </div>
+                </div>
             </article>
             <script src="script.js"></script>
         </main>
